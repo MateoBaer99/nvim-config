@@ -8,6 +8,6 @@ return {
   event = "VeryLazy",
   opts = {},
   keys = {
-    { "<leader>ve", "<cmd>VenvSelect<CR>", desc = "Select Python Virtual Environment" },
+    { "<leader>ve", "<cmd>VenvSelect<CR>", desc = "Select virtualenv" },
   },
 }

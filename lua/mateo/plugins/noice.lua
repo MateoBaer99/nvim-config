@@ -37,14 +37,14 @@ return {
   end,
   keys = {
     {
-      "<leader>nn",
+      "<leader>un",
       function()
         require("noice").cmd("history")
       end,
       desc = "Open message history",
     },
     {
-      "<leader>nl",
+      "<leader>ul",
       function()
         require("noice").cmd("last")
       end,

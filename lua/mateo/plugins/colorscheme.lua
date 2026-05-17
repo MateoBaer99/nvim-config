@@ -92,9 +92,9 @@ return {
     lazy = false,
     priority = 999,
     cmd = "Themery",
-    keys = {
-      { "<leader>tm", "<cmd>Themery<CR>", desc = "Open theme picker" },
-    },
+      keys = {
+        { "<leader>ut", "<cmd>Themery<CR>", desc = "Open theme picker" },
+      },
     config = function()
       local function apply_transparency()
         local groups = {
